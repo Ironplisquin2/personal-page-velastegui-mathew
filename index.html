@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathew Velastegui - Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. Hero Profile Section -->
+  <section class="hero-section">
+    <div class="hero-card">
+      <div class="hero-image">
+        <!-- Si subes tu foto a la carpeta assets/perfil.jpg, cambia src="assets/perfil.jpg" -->
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Mathew Velastegui">
+      </div>
+      <div class="hero-info">
+        <h4>Hola, soy</h4>
+        <h1>MATHEW VELASTEGUI</h1>
+        <h5>DESARROLLADOR DE SOFTWARE & ADMINISTRADOR LINUX</h5>
+        <p>Estudiante de Desarrollo de Software enfocado en aplicaciones web full-stack, bases de datos relacionales, redes y despliegue continuo en servidores VPS.</p>
+        
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-graduation-cap"></i> Ingeniería / Desarrollo de Software - UTE</li>
+          <li><i class="fa-brands fa-github"></i> github.com/Ironplisquin2</li>
+          <li><i class="fa-solid fa-server"></i> Linux, Nginx, Azure & CI/CD</li>
+          <li><i class="fa-solid fa-location-dot"></i> Quito, Ecuador</li>
+        </ul>
+
+        <div class="social-icons">
+          <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#proyectos" title="Proyectos">
+            <i class="fa-solid fa-code"></i>
+          </a>
+          <a href="#servicios" title="Áreas técnicas">
+            <i class="fa-solid fa-terminal"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Myself & Skills Section -->
+  <section id="sobre-mi" class="about-section">
+    <div class="about-container">
+      <div class="about-left">
+        <h2>SOBRE MÍ</h2>
+        <p>Construyo aplicaciones web desde el diseño de la base de datos y la lógica del servidor hasta su despliegue automatizado en la nube. Me interesa especialmente el ecosistema Linux, la automatización con GitHub Actions y el desarrollo backend y frontend moderno.</p>
+        
+        <div class="stats-grid">
+          <div class="stat-box">
+            <i class="fa-solid fa-code-branch"></i>
+            <h3>15+</h3>
+            <span>Repositorios</span>
+          </div>
+          <div class="stat-box">
+            <i class="fa-solid fa-database"></i>
+            <h3>SQL</h3>
+            <span>MySQL & Postgres</span>
+          </div>
+          <div class="stat-box">
+            <i class="fa-brands fa-linux"></i>
+            <h3>VPS</h3>
+            <span>Ubuntu & Nginx</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-right">
+        <div class="skill-item">
+          <span>HTML5 & CSS3 — 90%</span>
+          <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>JavaScript / TypeScript — 85%</span>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Python & Django — 80%</span>
+          <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>SQL (PostgreSQL / MySQL) — 85%</span>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <span>Linux, Git & GitHub Actions — 85%</span>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Actions Bar -->
+  <div class="bottom-actions">
+    <div class="btn-group">
+      <a href="#proyectos" class="btn btn-light">Ver Proyectos</a>
+      <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Perfil de GitHub</a>
+    </div>
+  </div>
+
+  <!-- 3. Offerings -->
+  <section id="servicios" class="offerings-section">
+    <h2>ÁREAS DE DESARROLLO</h2>
+    <p>Soluciones técnicas y académicas construidas con buenas prácticas de arquitectura, control de versiones y despliegue.</p>
+    
+    <div class="offerings-grid">
+      <div class="offering-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>DESARROLLO WEB</h3>
+        <p>Interfaces responsivas en HTML, CSS, JavaScript y React conectadas con APIs REST modernas.</p>
+      </div>
+      <div class="offering-card">
+        <i class="fa-solid fa-database"></i>
+        <h3>BACKEND & DATOS</h3>
+        <p>Modelado relacional normalizado, consultas SQL y lógica de servidor con Node.js, NestJS y Django.</p>
+      </div>
+      <div class="offering-card">
+        <i class="fa-solid fa-cloud-arrow-up"></i>
+        <h3>CLOUD & DEVOPS</h3>
+        <p>Configuración de servidores VPS en Linux, proxy inverso con Nginx y pipelines CI/CD en GitHub Actions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Featured Projects -->
+  <section id="proyectos" class="projects-section">
+    <h2>PROYECTOS DESTACADOS</h2>
+    <p>Selección de trabajos recientes en desarrollo web, sistemas académicos e infraestructura.</p>
+    
+    <div class="project-filters">
+      <span class="active">Todos</span>
+      <span>Web</span>
+      <span>Backend</span>
+      <span>Bases de Datos</span>
+      <span>DevOps</span>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img-box bg-yellow">
+          <i class="fa-solid fa-rocket fa-3x" style="color: #ca8a04;"></i>
+        </div>
+        <h4>Despliegue Automático en VPS</h4>
+        <p>Portafolio en Ubuntu + Nginx con CI/CD en GitHub Actions</p>
+      </div>
+      <div class="project-card">
+        <div class="project-img-box bg-cyan">
+          <i class="fa-solid fa-graduation-cap fa-3x" style="color: #0d9488;"></i>
+        </div>
+        <h4>Sistema de Gestión Académica</h4>
+        <p>Aplicación Full-Stack con Django REST Framework y PostgreSQL</p>
+      </div>
+      <div class="project-card">
+        <div class="project-img-box bg-purple">
+          <i class="fa-solid fa-network-wired fa-3x" style="color: #9333ea;"></i>
+        </div>
+        <h4>Infraestructura de Red Multi-Sucursal</h4>
+        <p>Diseño VLSM, VLANs, enrutamiento y servicios Web/DNS</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Mathew Velastegui — Desplegado automáticamente en Azure VPS con Nginx y GitHub Actions.</p>
+  </footer>
+
+</body>
+</html>

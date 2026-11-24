@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mathew Velastegui | Desarrollador de Software</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#inicio" class="logo">MV<span>.dev</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Stack</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <p class="badge">Disponible para proyectos & colaboración</p>
+        <h1>Hola, soy <span>Mathew Velastegui</span></h1>
+        <p class="subtitle">
+          Estudiante de Desarrollo de Software enfocado en desarrollo web full-stack,
+          administración de servidores Linux, bases de datos relacionales y despliegue en la nube.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            GitHub (@Ironplisquin2)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <div class="card">
+          <p>
+            Soy estudiante de Desarrollo de Software. Me enfoco en construir soluciones web limpias,
+            administrar entornos Linux y automatizar despliegues mediante CI/CD en servidores VPS.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2>Stack Tecnológico</h2>
+        <div class="grid-skills">
+          <div class="card skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, TypeScript, React.js</p>
+          </div>
+          <div class="card skill-card">
+            <h3>Backend</h3>
+            <p>Node.js, NestJS, Python, Django, REST APIs</p>
+          </div>
+          <div class="card skill-card">
+            <h3>Bases de Datos</h3>
+            <p>PostgreSQL, MySQL, Diseño Relacional & SQL</p>
+          </div>
+          <div class="card skill-card">
+            <h3>DevOps & Linux</h3>
+            <p>Linux, Nginx, SSH, Git, GitHub Actions, Azure</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2>Proyectos Destacados</h2>
+        <div class="grid-projects">
+          <article class="card project-card">
+            <span class="tag">Web & CI/CD</span>
+            <h3>Página Personal en VPS</h3>
+            <p>
+              Sitio web estático desplegado automáticamente en un VPS con Nginx y GitHub Actions.
+            </p>
+            <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="link-arrow">
+              Ver en GitHub &rarr;
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <span class="tag">Full-Stack</span>
+            <h3>Aplicación de Gestión Académica</h3>
+            <p>
+              Proyecto web con estructura modular, validaciones y base de datos relacional.
+            </p>
+            <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="link-arrow">
+              Ver en GitHub &rarr;
+            </a>
+          </article>
+
+          <article class="card project-card">
+            <span class="tag">Redes</span>
+            <h3>Diseño de Red Multi-Sucursal</h3>
+            <p>
+              Topología con subneteo VLSM, VLANs, rutas estáticas y servicios web/DNS.
+            </p>
+            <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="link-arrow">
+              Ver en GitHub &rarr;
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2>Contacto</h2>
+        <div class="card contact-card">
+          <p>¿Quieres colaborar o revisar más código? Visita mi perfil de GitHub.</p>
+          <a href="https://github.com/Ironplisquin2" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Ir a GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Mathew Velastegui. Desplegado con Nginx & GitHub Actions.</p>
+    </div>
+  </footer>
+</body>
+</html>
